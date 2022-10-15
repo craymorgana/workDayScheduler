@@ -57,7 +57,7 @@ textarea {
   color: white;
 }
 
-.saveBtn {
+.save {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -73,3 +73,8 @@ textarea {
 ul {
   list-style-type: none;
 }
+
+.container {
+  height: 800px;
+}
+
