@@ -35,104 +35,77 @@ var saveBtn9 = document.querySelector('.saveBtn9');
 
 saveBtn.addEventListener('click', function(event){
     var element = event.target
-console.log('element :>> ', element);
-console.log('event :>> ', event);
 saveEvent();
 })
 saveBtn2.addEventListener('click', function(event){
     var element = event.target
-console.log('element :>> ', element);
-console.log('event :>> ', event);
 saveEvent2();
 })
 saveBtn3.addEventListener('click', function(event){
     var element = event.target
-console.log('element :>> ', element);
-console.log('event :>> ', event);
 saveEvent3();
 })
 saveBtn4.addEventListener('click', function(event){
     var element = event.target
-console.log('element :>> ', element);
-console.log('event :>> ', event);
 saveEvent4();
 })
 saveBtn5.addEventListener('click', function(event){
     var element = event.target
-console.log('element :>> ', element);
-console.log('event :>> ', event);
 saveEvent5();
 })
 saveBtn6.addEventListener('click', function(event){
     var element = event.target
-console.log('element :>> ', element);
-console.log('event :>> ', event);
 saveEvent6();
 })
 saveBtn7.addEventListener('click', function(event){
     var element = event.target
-console.log('element :>> ', element);
-console.log('event :>> ', event);
 saveEvent7();
 })
 saveBtn8.addEventListener('click', function(event){
     var element = event.target
-console.log('element :>> ', element);
-console.log('event :>> ', event);
 saveEvent8();
 })
 saveBtn9.addEventListener('click', function(event){
     var element = event.target
-console.log('element :>> ', element);
-console.log('event :>> ', event);
 saveEvent9();
 })
 //
 function saveEvent(){
     var saveText = document.querySelector("#textarea").value;
     localStorage.setItem('saveText', saveText)
-    console.log(localStorage);
 }
 
 function saveEvent2(){
     var saveText2 = document.querySelector("#textarea2").value;
     localStorage.setItem('saveText2', saveText2)
-    console.log(localStorage);
 }
 function saveEvent3(){
     var saveText3 = document.querySelector("#textarea3").value;
     localStorage.setItem('saveText3', saveText3)
-    console.log(localStorage);
 }
 function saveEvent4(){
     var saveText4 = document.querySelector("#textarea4").value;
     localStorage.setItem('saveText4', saveText4)
-    console.log(localStorage);
 }
 function saveEvent5(){
     var saveText5 = document.querySelector("#textarea5").value;
     localStorage.setItem('saveText5', saveText5)
-    console.log(localStorage);
 }
 function saveEvent6(){
     var saveText6 = document.querySelector("#textarea6").value;
     localStorage.setItem('saveText6', saveText6)
-    console.log(localStorage);
 }
 function saveEvent7(){
     var saveText7 = document.querySelector("#textarea7").value;
     localStorage.setItem('saveText7', saveText7)
-    console.log(localStorage);
 }
 function saveEvent8(){
     var saveText8 = document.querySelector("#textarea8").value;
     localStorage.setItem('saveText8', saveText8)
-    console.log(localStorage);
 }
 function saveEvent9(){
     var saveText9 = document.querySelector("#textarea9").value;
     localStorage.setItem('saveText9', saveText9)
-    console.log(localStorage);
 }
 saveText = localStorage.getItem('saveText')
 $('#textarea').val(saveText)
